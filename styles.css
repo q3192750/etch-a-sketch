@@ -10,6 +10,8 @@ h1 {
 
 .main {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .controls {
@@ -43,4 +45,8 @@ button:hover {
     min-height: 800px;
     min-width: 800px;
     border-style: solid;
+}
+
+.gridelement-active {
+    background-color: black;
 }
